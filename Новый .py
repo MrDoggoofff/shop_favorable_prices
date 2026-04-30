@@ -79,22 +79,6 @@ if response.status_code == 200:
 else:
     print(f"Ошибка при обращении к API. Код: {response.status_code}")
     print(f"Ответ Яндекса: {response.text}")
-# print('Насколько вы богатый от 1 до 5:')
-# m=int(input())
-
-# C=[c1,c2,c3,c4,c5]=input().split()# тут тоже ток ради примера 
-# numbers1 = [int(i) for i in C]
-# C_max=max(numbers1)
-
-# print('Насколько вы богатый от 1 до 5:')
-# m=int(input())
-# I1 = (numbers[0] * n / P_max) + (numbers1[0] * m / C_max)
-# I2 = (numbers[1] * n / P_max) + (numbers1[1] * m / C_max)
-# I3 = (numbers[2] * n / P_max) + (numbers1[2] * m / C_max)
-# I4 = (numbers[3] * n / P_max) + (numbers1[3] * m / C_max)
-# I5 = (numbers[4] * n / P_max) + (numbers1[4] * m / C_max)
-# I_max=max(I1,I2,I3,I4,I5)#потом типа учитывая лучший варик мы пишем пользователю название растояние и цену чека 
-# print(I_max,f'Лучший вариант:"название магазина"\n"адресс:"\n"цена чека:')
 # где:
 #    P (Distance)     - расстояние
 #    C (Price)        - средний чек
